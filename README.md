@@ -5,9 +5,7 @@
 
 代数表达式：
 
-$$
-S b o x(a)=I\left(x \cdot \mathbf{A}_{1}+C_{1}\right) \cdot \mathbf{A}_{2}+C_{2}
-$$
+$$Sbox(a)=I\left(x \cdot \mathbf{A}_{1}+C_{1}\right) \cdot \mathbf{A}_{2}+C_{2}$$
 
 其中：
 
