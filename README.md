@@ -5,6 +5,8 @@
 
 代数表达式：
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 $$Sbox(a)=I\left(x \cdot \mathbf{A}_{1}+C_{1}\right) \cdot \mathbf{A}_{2}+C_{2}$$
 
 其中：
@@ -17,7 +19,7 @@ $$
 \mathbf{A}_{1}=\mathbf{A}_{2}=\begin{bmatrix} 1 & 1 & 1 & 0 & 0&1&0&1\\ 1 & 1 &1 &1 &0 &0 &1 &0 \\0&1&1&1&1&0&0&1\\ 1&0&1&1&1&1&0&0\\0&1&0&1&1&1&1&0\\0&0&1&0&1&1&1&1\\1&0&0&1&0&1&1&1\\1&1&0&0&1&0&1&1 \end{bmatrix}\quad
 $$
 
-$I$ 为$G F\left(2^{8}\right)$域上的求逆，SM4算法使用的不可约多项式为：
+\\(I\\) 为\\(G F\left(2^{8}\right)\\)域上的求逆，SM4算法使用的不可约多项式为：
 
 $$
 M(x)=x^{8}+x^{7}+x^{6}+x^{5}+x^{4}+x^{2}+1
