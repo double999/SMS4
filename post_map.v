@@ -1,4 +1,4 @@
-﻿// Engineer: Chongyang Li
+// Engineer: Chongyang Li
 // 
 // Create Date: 2019/04/12 
 // Design Name: 
@@ -16,19 +16,19 @@ output [7:0] post_map_out;
 
 assign post_map_out[7]= ^{ Sin[6],Sin[5],Sin[4],Sin[3],Sin[2],Sin[1],Sin[0],1'b1};
 
-assign post_map_out[6]= ^{ Sin[7],Sin[6],Sin[5],Sin[4],Sin[3],Sin[1],Sin[0],1'b1};
+assign post_map_out[6]= ^{ Sin[7],Sin[6],Sin[5],Sin[4],Sin[3],Sin[1],Sin[0]};
 
 assign post_map_out[5]= ^{ Sin[7],Sin[5],Sin[4],Sin[3],Sin[1],Sin[0],1'b1};
 
-assign post_map_out[4]= ^{ Sin[7],Sin[4],Sin[1],Sin[0],1'b1};
+assign post_map_out[4]= ^{ Sin[7],Sin[4],Sin[1],Sin[0]};
 
-assign post_map_out[3]= ^{ Sin[4],Sin[3]};
+assign post_map_out[3]= ^{ Sin[4],Sin[3],1'b1};
 
-assign post_map_out[2]= ^{ Sin[7],Sin[5],Sin[4],Sin[3],Sin[2]};
+assign post_map_out[2]= ^{ Sin[7],Sin[5],Sin[4],Sin[3],Sin[2],1'b1};
 
 assign post_map_out[1]= ^{ Sin[7],Sin[6],Sin[3],Sin[2],Sin[1]};
 
-assign post_map_out[0]= ^{ Sin[7],Sin[6],Sin[5],Sin[4]};
+assign post_map_out[0]= ^{ Sin[7],Sin[6],Sin[5],Sin[4],1'b1};
 
 endmodule
 

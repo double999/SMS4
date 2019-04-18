@@ -19,10 +19,10 @@ assign Sout[6] = ^{ neg_map_in[3],neg_map_in[2],neg_map_in[0],1'b1 };
 
 assign Sout[5] = ^{ neg_map_in[6],neg_map_in[5],neg_map_in[3],neg_map_in[2],neg_map_in[1]};
 
-assign Sout[4] = ^{ neg_map_in[7],neg_map_in[3],neg_map_in[2],neg_map_in[1]};
+assign Sout[4] = ^{ neg_map_in[7],neg_map_in[3],neg_map_in[2],neg_map_in[1],1'b1};
 
 assign Sout[3] = ^{ neg_map_in[7],neg_map_in[6],neg_map_in[5],neg_map_in[4],neg_map_in[3],
-                    neg_map_in[1],neg_map_in[0],1'b1};
+                    neg_map_in[1],neg_map_in[0]};
 					
 assign Sout[2] = ^{ neg_map_in[4],neg_map_in[3],neg_map_in[1]};
 
