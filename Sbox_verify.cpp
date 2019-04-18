@@ -84,15 +84,11 @@ int inverse(int a,int b){
   }
 int main()
   {
-     /*cout<<"please enter a 8bit_width hex num:"<<" ";
+     cout<<"please enter a 8bit_width hex num:"<<" ";
      int x;
      cin>>hex>>x;
-	 cout<<hex<<x<<"对应的S盒输出为"<<hex<<change(inverse(0x1f5,change(x)))<<endl;
-	 //正确版本
-	 */ 
-	 int x;
-	 cin>>x;
-	 cout<<x<<"逆为"<<inverse(0x1f5,238)<<endl; 
+	 cout<<hex<<x<<"瀵瑰簲鐨凷鐩掕緭鍑轰负"<<hex<<change(inverse(0x1f5,change(x)))<<endl;
+
 	 
      return 0;
   }
